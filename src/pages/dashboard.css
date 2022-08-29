@@ -196,7 +196,7 @@
 .top_cust{
     font-weight: 600;
 }
-@media(max-width: 9000px){
+@media(max-width: 900px){
     .ongoing{
         margin-top: 10px;
     }
