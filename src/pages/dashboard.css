@@ -1,0 +1,224 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 90% !important;
+    margin: auto;
+}
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+.navimg{
+    display: flex;
+    flex-direction: row;
+}
+.nav-link{
+    color: black !important;
+}
+.searchbut{
+    border: none;
+    background-color: #09781a;
+    color: white;
+    padding:  6px 15px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.searchinput{
+    padding: 5px 10px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.dashboardbody{
+    background-color: rgb(243, 236, 236);
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+.dashboard_sub{
+    display: flex;
+    width: 95%;
+    margin-left: 2.5%;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 20px;
+}
+.subtopics{
+    margin: 8px 0;
+    font-weight: 600;
+    
+}
+.ongoing{
+    background-color: white;
+    width: 285px;
+    display: flex;
+    padding: 20px 10px;
+}
+.productmonitor{
+    display: flex;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.no_div{
+    margin-left: 20px;
+}
+.number{
+    margin: 0;
+    font-size: 23px;
+    font-weight: 600;
+}
+.icon_body{
+    background-color: #fff8eb;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.icon_body1{
+    background-color: #e6ebff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.icon_body2{
+    background-color: #ecfcf1;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.icon_body3{
+    background-color: rgb(240, 188, 188);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.no_topic{
+    font-size: 13px;
+}
+.dashboard_graph{
+    background-color: white;
+    margin-top: 20px;
+    min-height: 30vh;
+    width: 75%;
+}
+.chart_details{
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.graph_select{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.selection_bar{
+    font-size: 13px;
+}
+.total_trans{
+    font-size: 18px;
+}
+.topcust_cat{
+    height: 70vh;
+    background-color: white;
+    width: 280px;
+    margin-top: 20px;
+    padding: 15px;
+    overflow-y: auto;
+    scrollbar-width: 2px;
+}
+.top_cust{
+    width: 100%;
+    padding: 5px 5px;
+
+}
+.topcust_list{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: .7px solid rgb(211, 208, 208);
+}
+.topcust_listName{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    align-items: flex-start;
+}
+.topcust_rounded{
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    background-color: #ecfcf1;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.3px;
+}
+.manage_acc{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.topcust_rounded1{
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    background-color: #dafce5;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.3px;
+}
+.topcust_common{
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    
+}
+.topcust_name{
+    font-size: 15px;
+}
+.topcust_email{
+    margin-bottom: 7px;
+}
+.topcust_custDetails{
+    margin: 0 0 7px 5px;
+}
+.topcust_amount{
+    margin: 7.3px 5px 0 0;
+    color: #09781a;
+}
+.top_cust{
+    font-weight: 600;
+}
+@media(max-width: 9000px){
+    .ongoing{
+        margin-top: 10px;
+    }
+    .chart_details{
+        flex-direction: column;
+    }
+    .dashboard_graph{
+        width: 100%;
+    }
+    .topcust_cat{
+        height: 30vh;
+        width: 100%;
+    }
+}
+@media(max-width: 500px){
+    .navimg{
+        flex-direction: column;
+    }
+    .searchinput{
+        width: 150px;
+    }
+    .ongoing{
+        width: 100%;
+    }
+}
