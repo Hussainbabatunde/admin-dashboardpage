@@ -1,0 +1,72 @@
+.userdetails{
+    width: 50%;
+    background-color: white;
+    border-radius:10px;
+     margin-right:5%;
+}
+.userholder{
+    display: flex;
+    flex-direction: row;
+}
+.usernav{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+element.style {
+    font-size: 30px;
+    color: black;
+}
+
+.css-cveggr-MuiListItemIcon-root {
+    min-width: 0 !important;
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+    flex-direction: column !important;
+}
+.btn-primary {
+    background-color:#216E8C !important; 
+    border: none !important;
+}
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: #216E8C  !important;
+}
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #216E8C !important;
+    border-color: #216E8C !important;
+}
+@media (max-width: 600px) {
+    .userdetails{
+        width: 100%;
+         margin-right:0;
+         margin-bottom: 20px;
+    }
+    .userholder{
+        flex-direction: column;
+    }
+    .usernav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1000px) {
+    .userdetails{
+        width: 100%;
+         margin-right:0;
+         margin-bottom: 20px;
+    }
+    .userholder{
+        flex-direction: column;
+    }
+    .usernav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+p{
+    margin-bottom: 0 !important;
+}

@@ -9,6 +9,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './pages/login';
 import Navigationbar from './pages/Navbar';
 import Dashboard from './pages/dashboard';
+import Admindash from './Admin/adminUser/admindashboard';
+import Ongoing from './Admin/adminUser/Ongoing';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Body from './Admin/adminUser/Body';
+import Cancelled from './Admin/adminUser/Cancelled';
+import Timebased from './Admin/adminUser/Timebased';
+import User from './Admin/adminUser/User';
 
 function App() {
   return (
@@ -17,6 +24,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Login/>}/>
           <Route path="/dashboard" element={<Dashboard/>}/>
+          <Route path="/completed" exact element={<Body/>}/>
+            <Route path="/ongoing" exact element={<Ongoing/>}/>
+            <Route path="/cancelled" exact element={<Cancelled/>}/>
+            <Route path="/timebased" exact element={<Timebased/>}/>
+            <Route path="/user" exact element={<User/>}/>
         </Routes>
       </Router>
       {/* <p>it is working</p>
